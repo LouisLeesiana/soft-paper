@@ -549,12 +549,6 @@ settings:
   color: inherit;
 }
 
-/* File explorer hover effects */
-.theme-dark:not(.is-grabbing) .nav-files-container > div > .nav-folder .nav-folder-title:hover,
-.theme-dark:not(.is-grabbing) .nav-files-container > div .nav-file .nav-file-title:hover {
-  filter: brightness(0.85);
-}
-
 /* Dark mode: sidebar pane text (tags, backlinks, etc.) */
 .theme-dark .tree-item-inner-text {
   color: #C6CEEF;
@@ -1507,7 +1501,6 @@ body.theme-dark:not(.is-mobile) .workspace-split.mod-left-split .workspace-sided
 }
 
 .nav-files-container > div > .nav-folder {
-  transition: background-color 0.4s;
   background-color: rgba(var(--rainbow-folder-color), var(--anp-rainbow-folder-bg-opacity));
   margin-bottom: 2px;
   border-radius: 5px;
@@ -1517,10 +1510,6 @@ body.theme-light:not(.is-grabbing) .nav-files-container > div > .nav-folder .nav
 body.theme-light:not(.is-grabbing) .nav-files-container > div > .nav-folder .nav-file .nav-file-title:hover {
   background-color: rgba(var(--ctp-base), 0.1);
   color: var(--background-primary);
-}
-
-body.theme-light:not(.is-grabbing) .nav-files-container > div > .nav-file .nav-file-title:hover {
-  filter: brightness(0.9);
 }
 
 body:not(.is-grabbing) .nav-files-container > div > .nav-folder .nav-file-title.is-active {
