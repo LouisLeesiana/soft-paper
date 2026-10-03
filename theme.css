@@ -575,12 +575,12 @@ body {
  *===============================================================*/
 
 body {
-  --h1-font: "Source Serif Pro", serif;
-  --h2-font: "Source Serif Pro", serif;
-  --h3-font: "Source Serif Pro", serif;
-  --h4-font: "Source Serif Pro", serif;
-  --h5-font: "Source Serif Pro", serif;
-  --h6-font: "Source Serif Pro", serif;
+  --h1-font: "Noto Serif", Georgia, serif;
+  --h2-font: "Noto Serif", Georgia, serif;
+  --h3-font: "Noto Serif", Georgia, serif;
+  --h4-font: "Noto Serif", Georgia, serif;
+  --h5-font: "Noto Serif", Georgia, serif;
+  --h6-font: "Noto Serif", Georgia, serif;
   --h1-size: 1.75em;
   --h1-weight: var(--font-black);
   --h1-line-height: 1.2;
@@ -602,7 +602,7 @@ body {
   --h6-color: #8D8D8D;
   --bold-weight: var(--font-bold);
   --code-comment: var(--color-orange-text);
-  --anp-header-font: "Source Serif Pro", serif;
+  --anp-header-font: "Noto Serif", Georgia, serif;
   --anp-rainbow-folder-bg-opacity: 0.9;
   --anp-rainbow-folder-border-opacity: 1;
   --anp-rainbow-folder-collapse-border-custom: #00000044;
