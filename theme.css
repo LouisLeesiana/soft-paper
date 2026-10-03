@@ -154,18 +154,53 @@ settings:
 }
 
 /* Default scrollbar: thin and transparent */
-*::-webkit-scrollbar {
+:is(
+  .nav-files-container,
+  .workspace-leaf-content,
+  .markdown-source-view,
+  .markdown-preview-view,
+  .modal-container,
+  .menu,
+  .suggestion-container
+)::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
-*::-webkit-scrollbar-track {
+
+:is(
+  .nav-files-container,
+  .workspace-leaf-content,
+  .markdown-source-view,
+  .markdown-preview-view,
+  .modal-container,
+  .menu,
+  .suggestion-container
+)::-webkit-scrollbar-track {
   background: transparent;
 }
-*::-webkit-scrollbar-thumb {
+
+:is(
+  .nav-files-container,
+  .workspace-leaf-content,
+  .markdown-source-view,
+  .markdown-preview-view,
+  .modal-container,
+  .menu,
+  .suggestion-container
+)::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-*::-webkit-scrollbar-thumb:hover {
+
+:is(
+  .nav-files-container,
+  .workspace-leaf-content,
+  .markdown-source-view,
+  .markdown-preview-view,
+  .modal-container,
+  .menu,
+  .suggestion-container
+)::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.25);
 }
 
